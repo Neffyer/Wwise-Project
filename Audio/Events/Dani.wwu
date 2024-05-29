@@ -1,6 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{BA8E2DEE-9B52-4757-BFAA-B867FF6A6CD9}" SchemaVersion="110">
 	<Events>
-		<WorkUnit Name="Dani" ID="{BA8E2DEE-9B52-4757-BFAA-B867FF6A6CD9}" PersistMode="Standalone"/>
+		<WorkUnit Name="Dani" ID="{BA8E2DEE-9B52-4757-BFAA-B867FF6A6CD9}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Inventory" ID="{5EA98D34-30D0-41CD-B68A-C5BA1A1BB842}" ShortID="89021341">
+					<ChildrenList>
+						<Event Name="UI_Inventory_Close" ID="{1DB7EE93-E49C-4D59-8DE0-0B18266A802D}"/>
+						<Event Name="UI_Inventory_Open" ID="{F2F48E1F-0EFE-42BC-9157-B46E34EBE6E2}"/>
+						<Event Name="UI_Inventory_Roll" ID="{5DE624CC-F521-4343-A024-C9DF198CDCAA}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="QuestRoll" ID="{9B0530F4-E0E8-4045-A903-E2089D665695}" ShortID="231404547">
+					<ChildrenList>
+						<Event Name="UI_QuestRoll_Open" ID="{DE838AB9-EE1D-4919-85AD-CCC432E00664}"/>
+						<Event Name="UI_QuestRoll_Show" ID="{22604BA6-F33E-4553-B5B3-A2DFCA263100}"/>
+						<Event Name="UI_QuestRoll_Close" ID="{5D05BCD3-F3EC-4745-A597-534A856A26D5}"/>
+						<Event Name="UI_QuestRoll_Hide" ID="{E3618060-3494-4D07-B42E-6A9005B16BBD}"/>
+						<Event Name="Quest_Complete" ID="{B6425C50-6AB1-42E3-9F81-22843EB3896C}"/>
+						<Event Name="Quest_CompleteCollection" ID="{E2AA4618-0AF4-4D6F-8164-B0EBC19D3FDD}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Destruction" ID="{B73C09C9-3DB9-4E86-A1F9-A73FCDECB0DB}" ShortID="545603747">
+					<ChildrenList>
+						<Event Name="Destruction_Container" ID="{71487B58-98A9-4A64-8F1A-67AF23840555}">
+							<ChildrenList>
+								<Action Name="" ID="{184ED5F2-235C-4D00-B3E7-337570517029}" ShortID="814734647">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Crate" ID="{ECC73B52-8881-452C-85DE-74557F0C3C9F}" WorkUnitID="{0132A2EA-44AD-4A33-B05E-BC684E08373D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Destruction_Crystal_Destroy" ID="{24F3436F-5188-4A05-8B80-E473D6F46BBF}">
+							<ChildrenList>
+								<Action Name="" ID="{28AE26E2-5977-45D8-A9B7-D24FBFEF2CAC}" ShortID="939387111">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BAS_Crystals_Destroy" ID="{0DFA38A8-1F44-4C31-B591-1C2FFC81A785}" WorkUnitID="{0132A2EA-44AD-4A33-B05E-BC684E08373D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Destruction_Rock_Destroy" ID="{D25721FA-F4A7-4BC5-A8B5-5DF5D38CDBF8}">
+							<ChildrenList>
+								<Action Name="" ID="{370B0CE9-2C7A-4D52-B3D7-6080A314F697}" ShortID="183626404">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Rock" ID="{2B2BDEF7-72FF-492C-8254-182B100C6EBF}" WorkUnitID="{0132A2EA-44AD-4A33-B05E-BC684E08373D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Destruction_VolcanicBoulder_Impact" ID="{1B941BD4-8946-431A-B1D4-59B82305FC1D}"/>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
