@@ -26,6 +26,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Music_TitleScreen" ID="{FF37152A-19B6-49E9-B604-EDF76D998E37}">
+					<ChildrenList>
+						<Action Name="" ID="{D3715C38-9E58-4F65-A3A3-AA5760536557}" ShortID="910137384">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TitleScreen" ID="{42E2DB76-ABE1-4D4F-A213-F136B7B50991}" WorkUnitID="{FDA09B0F-DA3D-471E-8FDE-35DA9392AC18}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -63,6 +63,13 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="TitleScreen" ID="{8532F06D-2637-47A6-B3A2-EE04DCD69979}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Music_TitleScreen" ID="{FF37152A-19B6-49E9-B604-EDF76D998E37}" WorkUnitID="{8BBA93F4-7D45-435F-88CA-B2A8B1662805}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>
