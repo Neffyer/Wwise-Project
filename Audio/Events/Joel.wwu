@@ -14,6 +14,18 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Stop_All" ID="{E28AEFB4-18FF-47EA-8E05-BFDAA2DCF96D}"/>
+				<Event Name="Music_Credits" ID="{676F733E-25AC-457F-B4E1-FCAF2FD88E2A}">
+					<ChildrenList>
+						<Action Name="" ID="{618067E9-784E-4823-AEC9-546351022C06}" ShortID="475671067">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Credits" ID="{A29F9689-DE54-4F9C-A966-C522133710C1}" WorkUnitID="{FDA09B0F-DA3D-471E-8FDE-35DA9392AC18}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
