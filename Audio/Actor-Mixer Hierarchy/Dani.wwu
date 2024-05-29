@@ -247,7 +247,7 @@
 								<ActiveSource Name="BAS_QuestRoll_Open" ID="{C650C8F2-FABB-4A8E-A51B-08DD17F1E983}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="BAS_Quest_CompleteCollection" ID="{E954B3C0-0B87-459F-8B3C-60947C5E8C1D}" ShortID="1054933946">
+						<Sound Name="BAS_Quest_CompleteCollection" ID="{D51B5BB9-4B0D-4C7A-B193-A7370BC9B9FE}" ShortID="613369879">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D30A32C2-102B-4006-8616-5C803FECC5D7}"/>
@@ -257,7 +257,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="BAS_Quest_Complete" ID="{573F6469-E988-463B-B2BA-673727B5C0E2}">
+								<AudioFileSource Name="BAS_Quest_Complete" ID="{31E9BFFD-8E1C-4274-8611-4FA3B442BB93}">
 									<Language>SFX</Language>
 									<AudioFile>BAS_Quest_Complete.wav</AudioFile>
 									<MediaIDList>
@@ -266,10 +266,10 @@
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="BAS_Quest_Complete" ID="{573F6469-E988-463B-B2BA-673727B5C0E2}" Platform="Linked"/>
+								<ActiveSource Name="BAS_Quest_Complete" ID="{31E9BFFD-8E1C-4274-8611-4FA3B442BB93}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="BAS_Quest_Complete" ID="{2A9DEAE2-851A-43C4-886F-3053ACFE0BA1}" ShortID="709718713">
+						<Sound Name="BAS_Quest_Complete" ID="{F093406F-2DAB-49FA-9329-A9F63C7D92E6}" ShortID="466054624">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D30A32C2-102B-4006-8616-5C803FECC5D7}"/>
@@ -279,7 +279,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="BAS_Quest_CompleteCollection" ID="{D7DAD4F7-F566-487A-9B3F-903F871A0687}">
+								<AudioFileSource Name="BAS_Quest_CompleteCollection" ID="{B195796A-18D6-4072-AC27-FD3E4D2E5071}">
 									<Language>SFX</Language>
 									<AudioFile>BAS_Quest_CompleteCollection.wav</AudioFile>
 									<MediaIDList>
@@ -288,7 +288,7 @@
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="BAS_Quest_CompleteCollection" ID="{D7DAD4F7-F566-487A-9B3F-903F871A0687}" Platform="Linked"/>
+								<ActiveSource Name="BAS_Quest_CompleteCollection" ID="{B195796A-18D6-4072-AC27-FD3E4D2E5071}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

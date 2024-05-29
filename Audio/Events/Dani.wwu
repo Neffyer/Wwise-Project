@@ -68,10 +68,10 @@
 						<Event Name="UI_QuestRoll_Hide" ID="{E3618060-3494-4D07-B42E-6A9005B16BBD}"/>
 						<Event Name="Quest_Complete" ID="{B6425C50-6AB1-42E3-9F81-22843EB3896C}">
 							<ChildrenList>
-								<Action Name="" ID="{3A3597F0-559E-4929-86B3-48A065AC18DB}" ShortID="174561187">
+								<Action Name="" ID="{95DE6D21-4670-468D-AF80-D5308EC328A9}" ShortID="692231561">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="BAS_Quest_Complete" ID="{2A9DEAE2-851A-43C4-886F-3053ACFE0BA1}" WorkUnitID="{0132A2EA-44AD-4A33-B05E-BC684E08373D}"/>
+											<ObjectRef Name="BAS_Quest_Complete" ID="{F093406F-2DAB-49FA-9329-A9F63C7D92E6}" WorkUnitID="{0132A2EA-44AD-4A33-B05E-BC684E08373D}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -79,10 +79,10 @@
 						</Event>
 						<Event Name="Quest_CompleteCollection" ID="{E2AA4618-0AF4-4D6F-8164-B0EBC19D3FDD}">
 							<ChildrenList>
-								<Action Name="" ID="{6697E0FC-0B40-4856-8A3F-0400B702CB14}" ShortID="1038949272">
+								<Action Name="" ID="{F75CAB5F-EF08-446D-AA97-40C2D69603F6}" ShortID="995656189">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="BAS_Quest_CompleteCollection" ID="{E954B3C0-0B87-459F-8B3C-60947C5E8C1D}" WorkUnitID="{0132A2EA-44AD-4A33-B05E-BC684E08373D}"/>
+											<ObjectRef Name="BAS_Quest_CompleteCollection" ID="{D51B5BB9-4B0D-4C7A-B193-A7370BC9B9FE}" WorkUnitID="{0132A2EA-44AD-4A33-B05E-BC684E08373D}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
