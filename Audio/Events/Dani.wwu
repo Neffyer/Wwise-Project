@@ -55,7 +55,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Destruction_VolcanicBoulder_Impact" ID="{1B941BD4-8946-431A-B1D4-59B82305FC1D}"/>
+						<Event Name="Destruction_VolcanicBoulder_Impact" ID="{1B941BD4-8946-431A-B1D4-59B82305FC1D}">
+							<ChildrenList>
+								<Action Name="" ID="{E28082FA-FE35-40F8-BE14-C22774DAC155}" ShortID="526401075">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Explosion" ID="{4C09392B-4E6E-459C-80B5-3C4EB295291F}" WorkUnitID="{0132A2EA-44AD-4A33-B05E-BC684E08373D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
