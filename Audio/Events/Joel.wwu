@@ -3,40 +3,66 @@
 	<Events>
 		<WorkUnit Name="Joel" ID="{8BBA93F4-7D45-435F-88CA-B2A8B1662805}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Music_Region" ID="{306F582F-BC16-4A64-AB93-0EE6EC6C5C2D}">
+				<Folder Name="Music" ID="{95428A7F-D5D9-4B52-84D9-9A1B22AAD303}" ShortID="17778317">
 					<ChildrenList>
-						<Action Name="" ID="{B4EFBA67-AEA3-42DA-A6D7-73A09291636C}" ShortID="119984330">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Musica" ID="{69C1E4C6-8E32-44E4-A340-DBA37F4B35F0}" WorkUnitID="{FDA09B0F-DA3D-471E-8FDE-35DA9392AC18}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="Music_TitleScreen" ID="{FF37152A-19B6-49E9-B604-EDF76D998E37}">
+							<ChildrenList>
+								<Action Name="" ID="{D3715C38-9E58-4F65-A3A3-AA5760536557}" ShortID="910137384">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TitleScreen" ID="{42E2DB76-ABE1-4D4F-A213-F136B7B50991}" WorkUnitID="{FDA09B0F-DA3D-471E-8FDE-35DA9392AC18}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Music_Region" ID="{306F582F-BC16-4A64-AB93-0EE6EC6C5C2D}">
+							<ChildrenList>
+								<Action Name="" ID="{B4EFBA67-AEA3-42DA-A6D7-73A09291636C}" ShortID="119984330">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Musica" ID="{69C1E4C6-8E32-44E4-A340-DBA37F4B35F0}" WorkUnitID="{FDA09B0F-DA3D-471E-8FDE-35DA9392AC18}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_All" ID="{E28AEFB4-18FF-47EA-8E05-BFDAA2DCF96D}"/>
+						<Event Name="Music_Credits" ID="{676F733E-25AC-457F-B4E1-FCAF2FD88E2A}">
+							<ChildrenList>
+								<Action Name="" ID="{618067E9-784E-4823-AEC9-546351022C06}" ShortID="475671067">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Credits" ID="{A29F9689-DE54-4F9C-A966-C522133710C1}" WorkUnitID="{FDA09B0F-DA3D-471E-8FDE-35DA9392AC18}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
-				<Event Name="Stop_All" ID="{E28AEFB4-18FF-47EA-8E05-BFDAA2DCF96D}"/>
-				<Event Name="Music_Credits" ID="{676F733E-25AC-457F-B4E1-FCAF2FD88E2A}">
+				</Folder>
+				<Folder Name="Footsteps" ID="{BCF01D86-7313-4E31-BEA8-E29DBA630DB2}" ShortID="892869414">
 					<ChildrenList>
-						<Action Name="" ID="{618067E9-784E-4823-AEC9-546351022C06}" ShortID="475671067">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Credits" ID="{A29F9689-DE54-4F9C-A966-C522133710C1}" WorkUnitID="{FDA09B0F-DA3D-471E-8FDE-35DA9392AC18}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="Player_Footstep" ID="{FBF91E0B-7382-4E51-BF47-0EB02250DEDC}">
+							<ChildrenList>
+								<Action Name="" ID="{50CBF4B3-C304-4F8C-8D92-08915D37EF52}" ShortID="870719710">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Walk" ID="{A50D8924-9E55-40C1-BF3E-3A663CD376B6}" WorkUnitID="{A09212A1-09A3-4073-A2C9-EA46FBEBD978}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{1DA2FE13-2DFB-4B18-8BE9-5F4E327427BC}" ShortID="724310549">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Run" ID="{17A93F50-1565-4C3B-93DF-C2715651F8F2}" WorkUnitID="{A09212A1-09A3-4073-A2C9-EA46FBEBD978}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
-				<Event Name="Music_TitleScreen" ID="{FF37152A-19B6-49E9-B604-EDF76D998E37}">
-					<ChildrenList>
-						<Action Name="" ID="{D3715C38-9E58-4F65-A3A3-AA5760536557}" ShortID="910137384">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="TitleScreen" ID="{42E2DB76-ABE1-4D4F-A213-F136B7B50991}" WorkUnitID="{FDA09B0F-DA3D-471E-8FDE-35DA9392AC18}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

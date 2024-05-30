@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{79C51A4E-4D19-4553-B7FF-E31916F86E67}" SchemaVersion="110">
+	<Switches>
+		<WorkUnit Name="Joel" ID="{79C51A4E-4D19-4553-B7FF-E31916F86E67}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Surface_Type" ID="{1B71DE54-783E-48D9-BDF8-B70420EC2BCC}">
+					<ChildrenList>
+						<Switch Name="Agent" ID="{B031EF7E-8941-4150-AC31-A822589B786D}"/>
+						<Switch Name="Barrel" ID="{D07F6DA3-1A8D-427A-8212-43D3969BDC0E}"/>
+						<Switch Name="Crate" ID="{B30B6E1D-696D-4821-A672-0313A4E9118C}"/>
+						<Switch Name="Crystal" ID="{F46F39DE-AC5B-464E-9830-05F487BED6A2}"/>
+						<Switch Name="Dirt" ID="{E8F13125-58CB-4EA1-9A76-170299A555D6}"/>
+						<Switch Name="Enemy_EvilCrawler" ID="{99200FED-5F0D-4FB9-9C9F-F2EC4087EE01}"/>
+						<Switch Name="Enemy_EvilHead" ID="{CE247C40-0376-45C9-8F78-0783D98E7458}"/>
+						<Switch Name="Enemy_EvilSpitPlant" ID="{36BD634D-B83C-4D9C-BA83-E0CDB155BE1D}"/>
+						<Switch Name="Grass" ID="{97FAE550-E571-44DB-BFFE-4EF7A585FC49}"/>
+						<Switch Name="Leaves" ID="{1DA0DE13-0083-443A-B175-1A51D45B8E30}"/>
+						<Switch Name="Metal" ID="{61CDB308-A02A-491E-A30C-C4DF4A883ED8}"/>
+						<Switch Name="Rubble" ID="{621B4DCF-0EA1-42E4-A3C4-8CE4F15B668B}"/>
+						<Switch Name="Sand" ID="{26C8E257-5826-40E5-97BA-4E0856511783}"/>
+						<Switch Name="Stone" ID="{F8DD4053-56AC-4407-8549-7E9FAFAF53E5}"/>
+						<Switch Name="Wood" ID="{72BA3019-BB80-4FA0-8BF2-B3121AB27D26}"/>
+						<Switch Name="Water" ID="{937D47D0-CF8B-42CD-BB41-478BF89D5044}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="Player_MovementSpeed" ID="{C8E2247F-64C8-4573-864F-6B274BD21807}"/>
+						<Curve Name="" ID="{F39843FB-A599-4093-834F-183022C74D11}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>0</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>100</XPos>
+									<YPos>0</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>
