@@ -3,7 +3,7 @@
 	<GameParameters>
 		<WorkUnit Name="Dani" ID="{49AF65B3-4FCA-40F7-8380-45F7B302E9AC}" PersistMode="Standalone">
 			<ChildrenList>
-				<GameParameter Name="Time" ID="{0E06A626-77BE-4A21-B9DC-FDF637003D00}">
+				<GameParameter Name="Time_of_Day" ID="{0E06A626-77BE-4A21-B9DC-FDF637003D00}">
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="12"/>
 						<Property Name="Max" Type="Real64" Value="24"/>

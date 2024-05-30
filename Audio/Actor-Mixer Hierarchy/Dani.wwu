@@ -1581,7 +1581,7 @@
 																</PropertyList>
 																<ReferenceList>
 																	<Reference Name="ControlInput">
-																		<ObjectRef Name="Time" ID="{0E06A626-77BE-4A21-B9DC-FDF637003D00}" WorkUnitID="{49AF65B3-4FCA-40F7-8380-45F7B302E9AC}"/>
+																		<ObjectRef Name="Time_of_Day" ID="{0E06A626-77BE-4A21-B9DC-FDF637003D00}" WorkUnitID="{49AF65B3-4FCA-40F7-8380-45F7B302E9AC}"/>
 																	</Reference>
 																	<Reference Name="Curve">
 																		<Custom>
@@ -1602,12 +1602,12 @@
 																					</Point>
 																					<Point>
 																						<XPos>6.001</XPos>
-																						<YPos>-0</YPos>
+																						<YPos>0</YPos>
 																						<Flags>0</Flags>
 																					</Point>
 																					<Point>
 																						<XPos>18</XPos>
-																						<YPos>-0</YPos>
+																						<YPos>0</YPos>
 																						<Flags>0</Flags>
 																					</Point>
 																					<Point>
@@ -1670,7 +1670,7 @@
 																</PropertyList>
 																<ReferenceList>
 																	<Reference Name="ControlInput">
-																		<ObjectRef Name="Time" ID="{0E06A626-77BE-4A21-B9DC-FDF637003D00}" WorkUnitID="{49AF65B3-4FCA-40F7-8380-45F7B302E9AC}"/>
+																		<ObjectRef Name="Time_of_Day" ID="{0E06A626-77BE-4A21-B9DC-FDF637003D00}" WorkUnitID="{49AF65B3-4FCA-40F7-8380-45F7B302E9AC}"/>
 																	</Reference>
 																	<Reference Name="Curve">
 																		<Custom>
@@ -1763,7 +1763,7 @@
 																</PropertyList>
 																<ReferenceList>
 																	<Reference Name="ControlInput">
-																		<ObjectRef Name="Time" ID="{0E06A626-77BE-4A21-B9DC-FDF637003D00}" WorkUnitID="{49AF65B3-4FCA-40F7-8380-45F7B302E9AC}"/>
+																		<ObjectRef Name="Time_of_Day" ID="{0E06A626-77BE-4A21-B9DC-FDF637003D00}" WorkUnitID="{49AF65B3-4FCA-40F7-8380-45F7B302E9AC}"/>
 																	</Reference>
 																	<Reference Name="Curve">
 																		<Custom>
@@ -1784,12 +1784,12 @@
 																					</Point>
 																					<Point>
 																						<XPos>6.001</XPos>
-																						<YPos>-0</YPos>
+																						<YPos>0</YPos>
 																						<Flags>0</Flags>
 																					</Point>
 																					<Point>
 																						<XPos>18</XPos>
-																						<YPos>-0</YPos>
+																						<YPos>0</YPos>
 																						<Flags>0</Flags>
 																					</Point>
 																					<Point>
@@ -1851,7 +1851,7 @@
 																</PropertyList>
 																<ReferenceList>
 																	<Reference Name="ControlInput">
-																		<ObjectRef Name="Time" ID="{0E06A626-77BE-4A21-B9DC-FDF637003D00}" WorkUnitID="{49AF65B3-4FCA-40F7-8380-45F7B302E9AC}"/>
+																		<ObjectRef Name="Time_of_Day" ID="{0E06A626-77BE-4A21-B9DC-FDF637003D00}" WorkUnitID="{49AF65B3-4FCA-40F7-8380-45F7B302E9AC}"/>
 																	</Reference>
 																	<Reference Name="Curve">
 																		<Custom>
@@ -1872,12 +1872,12 @@
 																					</Point>
 																					<Point>
 																						<XPos>6.001</XPos>
-																						<YPos>-0</YPos>
+																						<YPos>0</YPos>
 																						<Flags>0</Flags>
 																					</Point>
 																					<Point>
 																						<XPos>18</XPos>
-																						<YPos>-0</YPos>
+																						<YPos>0</YPos>
 																						<Flags>0</Flags>
 																					</Point>
 																					<Point>
@@ -1973,7 +1973,7 @@
 																</PropertyList>
 																<ReferenceList>
 																	<Reference Name="ControlInput">
-																		<ObjectRef Name="Time" ID="{0E06A626-77BE-4A21-B9DC-FDF637003D00}" WorkUnitID="{49AF65B3-4FCA-40F7-8380-45F7B302E9AC}"/>
+																		<ObjectRef Name="Time_of_Day" ID="{0E06A626-77BE-4A21-B9DC-FDF637003D00}" WorkUnitID="{49AF65B3-4FCA-40F7-8380-45F7B302E9AC}"/>
 																	</Reference>
 																	<Reference Name="Curve">
 																		<Custom>
@@ -2055,7 +2055,7 @@
 																</PropertyList>
 																<ReferenceList>
 																	<Reference Name="ControlInput">
-																		<ObjectRef Name="Time" ID="{0E06A626-77BE-4A21-B9DC-FDF637003D00}" WorkUnitID="{49AF65B3-4FCA-40F7-8380-45F7B302E9AC}"/>
+																		<ObjectRef Name="Time_of_Day" ID="{0E06A626-77BE-4A21-B9DC-FDF637003D00}" WorkUnitID="{49AF65B3-4FCA-40F7-8380-45F7B302E9AC}"/>
 																	</Reference>
 																	<Reference Name="Curve">
 																		<Custom>
@@ -2143,7 +2143,7 @@
 																</PropertyList>
 																<ReferenceList>
 																	<Reference Name="ControlInput">
-																		<ObjectRef Name="Time" ID="{0E06A626-77BE-4A21-B9DC-FDF637003D00}" WorkUnitID="{49AF65B3-4FCA-40F7-8380-45F7B302E9AC}"/>
+																		<ObjectRef Name="Time_of_Day" ID="{0E06A626-77BE-4A21-B9DC-FDF637003D00}" WorkUnitID="{49AF65B3-4FCA-40F7-8380-45F7B302E9AC}"/>
 																	</Reference>
 																	<Reference Name="Curve">
 																		<Custom>
@@ -2164,12 +2164,12 @@
 																					</Point>
 																					<Point>
 																						<XPos>6.001</XPos>
-																						<YPos>-0</YPos>
+																						<YPos>0</YPos>
 																						<Flags>0</Flags>
 																					</Point>
 																					<Point>
 																						<XPos>18</XPos>
-																						<YPos>-0</YPos>
+																						<YPos>0</YPos>
 																						<Flags>0</Flags>
 																					</Point>
 																					<Point>
@@ -2227,7 +2227,7 @@
 																</PropertyList>
 																<ReferenceList>
 																	<Reference Name="ControlInput">
-																		<ObjectRef Name="Time" ID="{0E06A626-77BE-4A21-B9DC-FDF637003D00}" WorkUnitID="{49AF65B3-4FCA-40F7-8380-45F7B302E9AC}"/>
+																		<ObjectRef Name="Time_of_Day" ID="{0E06A626-77BE-4A21-B9DC-FDF637003D00}" WorkUnitID="{49AF65B3-4FCA-40F7-8380-45F7B302E9AC}"/>
 																	</Reference>
 																	<Reference Name="Curve">
 																		<Custom>
