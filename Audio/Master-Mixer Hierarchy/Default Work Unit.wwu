@@ -9,6 +9,45 @@
 							<ObjectRef Name="System" ID="{A68FE978-AC5D-454F-A1A0-8469F4B15AEA}" WorkUnitID="{CEEFC952-2B8E-4C2E-93ED-196B0D08D826}"/>
 						</Reference>
 					</ReferenceList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{42C19190-F668-4A0A-950A-FA32515E7AE3}" ShortID="128214682">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="MenuSlider_Master_Volume" ID="{68E4CFFA-1C87-4B62-806C-6CF5DF025DB8}" WorkUnitID="{DB796C38-6F5E-49B2-88D0-0B548C0AB819}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{1210D3F2-4650-477C-B645-408B0D2C8C69}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

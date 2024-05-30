@@ -4,6 +4,8 @@
 		<WorkUnit Name="Joel" ID="{DB796C38-6F5E-49B2-88D0-0B548C0AB819}" PersistMode="Standalone">
 			<ChildrenList>
 				<GameParameter Name="Player_MovementSpeed" ID="{C8E2247F-64C8-4573-864F-6B274BD21807}"/>
+				<GameParameter Name="MenuSlider_Master_Volume" ID="{68E4CFFA-1C87-4B62-806C-6CF5DF025DB8}"/>
+				<GameParameter Name="MenuSlider_Music_Volume" ID="{A1B7C254-8019-4D6C-BEEC-7409558D1837}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>
