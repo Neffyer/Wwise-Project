@@ -16,6 +16,7 @@
 						<ObjectRef Name="UI_QuestRoll_Hide" ID="{E3618060-3494-4D07-B42E-6A9005B16BBD}" WorkUnitID="{BA8E2DEE-9B52-4757-BFAA-B867FF6A6CD9}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Inventory_Close" ID="{1DB7EE93-E49C-4D59-8DE0-0B18266A802D}" WorkUnitID="{BA8E2DEE-9B52-4757-BFAA-B867FF6A6CD9}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Quest_CompleteCollection" ID="{E2AA4618-0AF4-4D6F-8164-B0EBC19D3FDD}" WorkUnitID="{BA8E2DEE-9B52-4757-BFAA-B867FF6A6CD9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_WeaponImpact" ID="{4F5529BF-B1BA-4D88-AEFA-E0526711AAAC}" WorkUnitID="{8BBA93F4-7D45-435F-88CA-B2A8B1662805}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_Footstep" ID="{FBF91E0B-7382-4E51-BF47-0EB02250DEDC}" WorkUnitID="{8BBA93F4-7D45-435F-88CA-B2A8B1662805}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

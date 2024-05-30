@@ -41,28 +41,35 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Footsteps" ID="{BCF01D86-7313-4E31-BEA8-E29DBA630DB2}" ShortID="892869414">
+				<Event Name="Player_Footstep" ID="{FBF91E0B-7382-4E51-BF47-0EB02250DEDC}">
 					<ChildrenList>
-						<Event Name="Player_Footstep" ID="{FBF91E0B-7382-4E51-BF47-0EB02250DEDC}">
-							<ChildrenList>
-								<Action Name="" ID="{50CBF4B3-C304-4F8C-8D92-08915D37EF52}" ShortID="870719710">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Walk" ID="{A50D8924-9E55-40C1-BF3E-3A663CD376B6}" WorkUnitID="{A09212A1-09A3-4073-A2C9-EA46FBEBD978}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{1DA2FE13-2DFB-4B18-8BE9-5F4E327427BC}" ShortID="724310549">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Run" ID="{17A93F50-1565-4C3B-93DF-C2715651F8F2}" WorkUnitID="{A09212A1-09A3-4073-A2C9-EA46FBEBD978}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
+						<Action Name="" ID="{50CBF4B3-C304-4F8C-8D92-08915D37EF52}" ShortID="870719710">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Walk" ID="{A50D8924-9E55-40C1-BF3E-3A663CD376B6}" WorkUnitID="{A09212A1-09A3-4073-A2C9-EA46FBEBD978}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1DA2FE13-2DFB-4B18-8BE9-5F4E327427BC}" ShortID="724310549">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Run" ID="{17A93F50-1565-4C3B-93DF-C2715651F8F2}" WorkUnitID="{A09212A1-09A3-4073-A2C9-EA46FBEBD978}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
-				</Folder>
+				</Event>
+				<Event Name="Player_WeaponImpact" ID="{4F5529BF-B1BA-4D88-AEFA-E0526711AAAC}">
+					<ChildrenList>
+						<Action Name="" ID="{8F6D9DBE-F751-4D90-B38B-2A27C8D6D135}" ShortID="841391369">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Weapons" ID="{767425D2-1005-4503-875F-023D53DF2B70}" WorkUnitID="{A09212A1-09A3-4073-A2C9-EA46FBEBD978}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
