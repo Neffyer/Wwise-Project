@@ -8,6 +8,11 @@
 						<SwitchContainer Name="Run" ID="{17A93F50-1565-4C3B-93DF-C2715651F8F2}" ShortID="477321629">
 							<PropertyList>
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -25,6 +30,10 @@
 							</ReferenceList>
 							<ChildrenList>
 								<RandomSequenceContainer Name="Dirt" ID="{5C0F06E5-1632-4C25-9DA3-C71EE49E6CA1}" ShortID="524935187">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D30A32C2-102B-4006-8616-5C803FECC5D7}"/>
@@ -169,6 +178,10 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Grass" ID="{CD211DFF-ADFF-4DEA-B678-5D98306B0080}" ShortID="814631853">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D30A32C2-102B-4006-8616-5C803FECC5D7}"/>
@@ -313,6 +326,10 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Rubble" ID="{568817C6-4B23-4DA5-950B-436A9A12E056}" ShortID="62728212">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D30A32C2-102B-4006-8616-5C803FECC5D7}"/>
@@ -457,6 +474,10 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Sand" ID="{BE48E600-F4A2-4BD4-9D50-F234FBA14207}" ShortID="671928257">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D30A32C2-102B-4006-8616-5C803FECC5D7}"/>
@@ -601,6 +622,10 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Stone" ID="{DFFDEE46-1454-4841-AADA-A036DE5C1FC2}" ShortID="810465731">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D30A32C2-102B-4006-8616-5C803FECC5D7}"/>
@@ -745,6 +770,10 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Water" ID="{318231F5-1DC7-45B5-835A-066239D2C12A}" ShortID="972527315">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D30A32C2-102B-4006-8616-5C803FECC5D7}"/>
@@ -889,6 +918,10 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Wood" ID="{5E33DF2A-5D3F-476B-90B3-90BB604B6A79}" ShortID="741173229">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D30A32C2-102B-4006-8616-5C803FECC5D7}"/>
@@ -1155,6 +1188,11 @@
 						<SwitchContainer Name="Walk" ID="{A50D8924-9E55-40C1-BF3E-3A663CD376B6}" ShortID="685997720">
 							<PropertyList>
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1172,6 +1210,10 @@
 							</ReferenceList>
 							<ChildrenList>
 								<RandomSequenceContainer Name="Dirt" ID="{8D25B03E-627D-4569-83AE-EB4186320613}" ShortID="371427535">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D30A32C2-102B-4006-8616-5C803FECC5D7}"/>
@@ -1316,6 +1358,10 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Grass" ID="{82FA7A97-816F-4249-9104-5DB739284998}" ShortID="866873895">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D30A32C2-102B-4006-8616-5C803FECC5D7}"/>
@@ -1460,6 +1506,10 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Rubble" ID="{7428FCA7-98FB-4733-8EFC-E27D1D318B40}" ShortID="213194769">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D30A32C2-102B-4006-8616-5C803FECC5D7}"/>
@@ -1582,6 +1632,10 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Sand" ID="{73CB8DC6-30B1-4E33-813B-02FC12580081}" ShortID="143715789">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D30A32C2-102B-4006-8616-5C803FECC5D7}"/>
@@ -1726,6 +1780,10 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Stone" ID="{F357CA8C-9A05-43C6-B172-96E352E18A87}" ShortID="267621620">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D30A32C2-102B-4006-8616-5C803FECC5D7}"/>
@@ -1870,6 +1928,10 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Water" ID="{94DCE1D4-F86C-4B66-83C6-53F4391B3649}" ShortID="679046478">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D30A32C2-102B-4006-8616-5C803FECC5D7}"/>
@@ -2014,6 +2076,10 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Wood" ID="{3FF5A960-0043-4348-B459-3774E17E6CE5}" ShortID="444084517">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D30A32C2-102B-4006-8616-5C803FECC5D7}"/>
